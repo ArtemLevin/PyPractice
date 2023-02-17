@@ -8,7 +8,7 @@
 rows = int(input("Enter the number of rows "))
 columns = int(input("Enter the number of columns "))
 parts = int(input("Enter the number of parts "))
-if parts <= (rows*columns) and (parts % rows == 0 or parts % columns == 0):
+if parts <= (rows * columns) and (parts % rows == 0 or parts % columns == 0):
     print("Yes")
 else:
     print("No")

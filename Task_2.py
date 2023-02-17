@@ -12,10 +12,12 @@ peter = 0
 sergio = 0
 kate = 0
 Flag = True
-while Flag:
+while peter <= cranes//2:
     peter +=1
     sergio = peter
     kate = 2*(peter + sergio)
     if (peter + sergio + kate) == cranes:
         print ("Cranes = ", "Peter = ", peter, "Sergio = ", sergio, "Kate =", kate)
         Flag = False
+if Flag:
+    print("There is now correct way to divide the number of cranes")

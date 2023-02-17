@@ -11,10 +11,10 @@ number = input("Enter the number ")
 sum1 = 0
 sum2 = 0
 for i in number[:3]:
-    sum1 += i
+    sum1 += int(i)
 for i in number[3:]:
-    sum2 += i
+    sum2 += int(i)
 if sum1 == sum2:
-    print ("Yes")
+    print("Yes")
 else:
-    print ("No")
+    print("No")
