@@ -20,4 +20,4 @@ while peter <= cranes//2:
         print ("Cranes = ", "Peter = ", peter, "Sergio = ", sergio, "Kate =", kate)
         Flag = False
 if Flag:
-    print("There is now correct way to divide the number of cranes")
+    print("There is no correct way to divide the number of cranes")
