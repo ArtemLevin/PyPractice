@@ -17,7 +17,7 @@ while peter <= cranes//2:
     sergio = peter
     kate = 2*(peter + sergio)
     if (peter + sergio + kate) == cranes:
-        print ("Cranes = ", "Peter = ", peter, "Sergio = ", sergio, "Kate =", kate)
+        print ("Cranes = ", cranes, "Peter = ", peter, "Sergio = ", sergio, "Kate =", kate)
         Flag = False
 if Flag:
     print("There is no correct way to divide the number of cranes")
